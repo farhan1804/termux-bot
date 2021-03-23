@@ -55,6 +55,7 @@ const menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 └──────────────
 
 ┌──────「 *TOP UP GAME* 」
+├◪ ${a}${prefix}vilogff${a}
 ├◪ ${a}${prefix}ff${a}
 ├◪ ${a}${prefix}payment${a}
 ├◪ ${a}${prefix}info${a}
