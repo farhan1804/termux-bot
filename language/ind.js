@@ -185,25 +185,25 @@ return `
 ┃➻ ${a}Need   : DATA AKUN${a}
 ┣━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ┃  *───⊱ NOMINAL DIAMONDS ⊰───*
-┃ ${a}100    DM = IDR 000${a}
-┃ ${a}200    DM = IDR 000${a}
-┃ ${a}310    DM = IDR 000${a}
-┃ ${a}520    DM = IDR 000${a}
-┃ ${a}830    DM = IDR 000${a}
-┃ ${a}1060   DM = IDR 000${a}
-┃ ${a}1370   DM = IDR 000${a}
-┃ ${a}1580   DM = IDR 000${a}
-┃ ${a}2180   DM = IDR 000${a}
-┃ ${a}2700   DM = IDR 000${a}
-┃ ${a}3240   DM = IDR 000${a}
-┃ ${a}4360   DM = IDR 000${a}
-┃ ${a}5600   DM = IDR 000${a}
-┃ ${a}6660   DM = IDR 000${a}
-┃ ${a}7780   DM = IDR 000${a}
-┃ ${a}11200  DM = IDR 000${a}
+┃ ${a}100    DM = IDR 12.000${a}
+┃ ${a}200    DM = IDR 24.000${a}
+┃ ${a}310    DM = IDR 36.000${a}
+┃ ${a}520    DM = IDR 60.000${a}
+┃ ${a}830    DM = IDR 96.000${a}
+┃ ${a}1060   DM = IDR 120.000${a}
+┃ ${a}1370   DM = IDR 156.000${a}
+┃ ${a}1580   DM = IDR 180.000${a}
+┃ ${a}2180   DM = IDR 240.000${a}
+┃ ${a}2700   DM = IDR 300.000${a}
+┃ ${a}3240   DM = IDR 360.000${a}
+┃ ${a}4360   DM = IDR 480.000${a}
+┃ ${a}5600   DM = IDR 590.000${a}
+┃ ${a}6660   DM = IDR 708.000${a}
+┃ ${a}7780   DM = IDR 826.000${a}
+┃ ${a}11200  DM = IDR 1.150.000${a}
 ┃  ───⊱ *MEMBERSHIP* ⊰───
-┃ ${a}MM      = Rp. 000${a}
-┃ ${a}MB      = Rp. 000${a}
+┃ ${a}MM      = Rp. 24.000${a}
+┃ ${a}MB      = Rp. 96.000${a}
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
 *NOTE :*
 ${a}• Proses 1 - 10 menit ( Tergantung antrian )${a}
@@ -286,17 +286,12 @@ return `
 }
 exports.payment = () => {
 return `
-*𒆜PAYMENT𒆜*
-{a}• *GOPAY : 0895604611413*
-*A/N Fii GANZ*
-
-{a}• *DANA : 0895604611413*
-*A/N SURYATI*
-
-{a}• *OVO : 0895604611413*
-*A/N SURYATI*
-
-*NB : WAJIB SERTAKAN BUKTI PEMBAYARAN !*
+┏━━━━━━━⊱ *PAYMENT* ⊰━━━━━━━━━━━━━┓
+┃${a}GOPAY  : 0895604611413 | Fii GANZ${a}
+┃${a}DANA   : 0895604611413 | SURYATI${a}
+┃${a}OVO    : 0895604611413 | SURYATI${a}
+┃${a}QRIS   : PP GRUB${a}
+┗━━━━━━━⊱ *PAYMENT* ⊰━━━━━━━━━━━━━┛ 
 `
 }
 
